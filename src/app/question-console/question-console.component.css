@@ -1,0 +1,11 @@
+.question_console{
+    height: 80vh;
+}
+
+.question_number{
+    background-color: gray;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}

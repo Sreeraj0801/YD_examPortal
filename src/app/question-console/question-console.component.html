@@ -1,0 +1,23 @@
+<div class="question_console  p-3 border border-black  d-block w-100 rounded-2  ">
+    <div class="question_number  ">
+        <h5>Q1</h5>
+    </div>
+    <div class="question">
+        <h5> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, quisquam?
+        </h5>
+    </div>
+
+    <div *ngFor="let i of options" class="">
+            <div class="options h-25 p-3  w-100 bg-info p-2 mt-3   d-flex flex-row  gap-5 rounded-2  ">
+               <input type="radio" name={{i}}>
+               <h5>{{i}}</h5>
+              <h5> lorem {{1}}</h5>
+            </div>
+    </div>
+    <div class="submit_button text-center  mt-5">
+        <button type="button" class="btn btn-success">Save and next</button>
+    </div>
+    <div class="footer mt-3 bg-success d-flex justify-content-center  align-items-center  w-100 p-2   ">
+        <ngb-pagination [collectionSize]="70" [(page)]="page" aria-label="Default pagination" />
+    </div>
+</div>
